@@ -1,6 +1,6 @@
 from machine import Pin
 import time
-import libmotor
+from libmotor import carro_adelante, carro_atras, carro_derecha, carro_izquierda, carro_parar
 
 
 #llamar a la funcion carro_adelante
